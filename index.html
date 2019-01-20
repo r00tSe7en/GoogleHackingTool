@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta charset="UTF-8">
+<title>在线Google Hacking小工具</title>
+<link rel="shortcut icon" href="favicon.ico" >
+<script type="text/javascript" src="comonjs/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="comonjs/modernizr-2.6.2.min.js"></script>
+<script type="text/javascript" src="js/starbg.js"></script>
+<script type="text/javascript" src="js/googlehack.js"></script>
+
+<link type="text/css" rel="stylesheet" href="css/styles.css" />
+<style>
+	*{ margin:0; padding:0;}
+	canvas{ display: block; margin: 0; width:100%; height:100%; position: fixed; left: 0; right: 0; top:0; bottom:0;
+		z-index: -1; }
+	.content{ width: 1144px; margin: 0 auto; padding-top:10%;}
+</style>
+
+</head>
+<body>
+
+<canvas id="fullstarbg">您的浏览器不支持canvas标签</canvas>
+
+<div class="content">
+ 	<center><img src="google.png" alt="google"></center>
+ 		<div class="input_wrap_box box_S">
+	 		<input id="sercHead" name="sercHead" type="text" class="box_S" value="" placeholder="example.com" onclick="">
+ 		</div>
+</div>
+
+<div class="options">
+	<ul>
+        <li><a href="#" onclick="do_google_search(1)" style="font-family:verdana;font-size:20px;color:#4285f4;text-decoration:none">目录遍历漏洞</a></li>
+
+        <li><a href="#" onclick="do_google_search(2)" style="font-family:verdana;font-size:20px;color:#4285f4;text-decoration:none">配置文件泄露</a></li>
+
+        <li><a href="#" onclick="do_google_search(3)" style="font-family:verdana;font-size:20px;color:#4285f4;text-decoration:none">数据库文件泄露</a></li>
+
+        <li><a href="#" onclick="do_google_search(4)" style="font-family:verdana;font-size:20px;color:#4285f4;text-decoration:none">日志文件泄露</a></li>
+
+        <li><a href="#" onclick="do_google_search(5)" style="font-family:verdana;font-size:20px;color:#4285f4;text-decoration:none">备份和历史文件</a></li>
+
+        <li><a href="#" onclick="do_google_search(6)" style="font-family:verdana;font-size:20px;color:#4285f4;text-decoration:none">登录页面</a></li>
+
+        <li><a href="#" onclick="do_google_search(7)" style="font-family:verdana;font-size:20px;color:#4285f4;text-decoration:none">SQL错误</a></li>
+
+        <li><a href="#" onclick="do_google_search(8)" style="font-family:verdana;font-size:20px;color:#4285f4;text-decoration:none">公开文件信息</a></li>
+
+        <li><a href="#" onclick="do_google_search(9)" style="font-family:verdana;font-size:20px;color:#4285f4;text-decoration:none">phpinfo()></a></li>
+    </ul>
+
+</div>
+
+<div class="footer">
+	<center> Copyright © 2019 CODING BY <a href="https://www.se7ensec.cn" style="font-family:verdana;color:#4285f4;text-decoration:none"> SE7EN </a> GIT HUB: <a href="" style="font-family:verdana;color:#4285f4;text-decoration:none"> 在线google Hacking小工具 </a></center>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,133 @@
+/**Variables 变量**/
+/**背景图片**/
+.fixedTop {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+.fixedBottom {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+/**圆角*/
+/* Mixin 四边圆角 */
+/**boxS*/
+.box_S {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+body {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: tahoma, "Microsoft YaHei", 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;
+}
+/**Nested Rules  嵌套的规则**/
+.bordered {
+  border-bottom: solid 1px #e8e8e8;
+}
+.borderTop {
+  border-top: solid 1px #e8e8e8;
+}
+.blockMid {
+  display: block;
+  margin: 0 auto;
+}
+.prelative {
+  position: relative;
+}
+.pabsolute {
+  position: absolute;
+}
+.content {
+  padding: 0 4%;
+  width: 100%;
+  margin: 0 auto;
+}
+.pright {
+  right: 4%;
+}
+.bgcolor {
+  background: #fa5527;
+}
+.white {
+  color: #ffffff;
+}
+.input_wrap_box {
+  background: #0f1034;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  width: 770px;
+  height: 50px;
+  line-height: 50px;
+  margin-top: 20px;
+  position: relative;
+}
+.input_wrap_box .input_cover {
+  text-align: center;
+  line-height: 48px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 1px;
+  z-index: 3;
+  background: #0f1034;
+  border-radius: 27px;
+  -webkit-border-radius: 27px;
+  -moz-border-radius: 27px;
+  /*pointer-events:none;*/
+}
+.input_wrap_box #sercHead {
+  background: #0f1034;
+  width: 100%;
+  display: block;
+  text-align: center;
+  line-height: 48px;
+  border: 1px solid #1d2556;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  color: #ffffff;
+}
+.input_wrap_box #sercHead.cur {
+  border: 1px solid #6974b3;
+}
+.iconlogo {
+  display: block;
+  margin: 0 auto;
+  padding: 45px 0;
+}
+.options {
+  width: 100%;
+  text-align: center;
+  margin-top:20px;
+}
+.footer {
+  width: 100%;
+  margin-top: 50px;
+}
+/*@media screen and (max-width:359px){
+  body{ font-size: 12px;}
+}
+@media only screen and (min-width:360px)and(max-width:639px ){
+  body{ font-size: 13px;}
+}
+@media screen and (min-width:640px)and(max-width:749px ){
+  body{ font-size: 16px;}
+}
+@media screen and (min-width:750px){
+  body{ font-size: 24px;}
+}
+*/
