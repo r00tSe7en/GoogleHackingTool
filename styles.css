@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: tahoma, "Microsoft YaHei", 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;
+}
+
+canvas { 
+  display: block; 
+  margin: 0; 
+  width:100%; 
+  height:100%; 
+  position: fixed; 
+  left: 0; 
+  right: 0; 
+  top:0; 
+  bottom:0;
+  z-index: -1;
+  }
+
+.box_S {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+
+.content {
+  padding-top:10%;
+  width: 100%;
+  margin: 0;
+}
+
+.input_wrap_box {
+  background: #0f1034;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  width: 770px;
+  height: 50px;
+  line-height: 50px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.input_wrap_box #sercHead {
+  background: #0f1034;
+  width: 100%;
+  display: block;
+  text-align: center;
+  line-height: 48px;
+  border: 1px solid #1d2556;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  color: #ffffff;
+}
+
+.options {
+  width: 100%;
+  text-align: center;
+  margin-top:20px;
+}
+
+.footer {
+  width: 100%;
+  margin-top: 50px;
+}
+
