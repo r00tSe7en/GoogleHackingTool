@@ -20,7 +20,7 @@
                 url = url2 + '+ext:bkf+|+ext:bkp+|+ext:bak+|+ext:old+|+ext:backup';
                 break;
             case 6:
-                url = url2 + '+inurl:login';
+                url = url2 + '+inurl:login+|+inurl:admin+|+intitle:登陆+|+intitle:后台+|+intitle:管理+|+intitle:认证';
                 break;
             case 7:
                 url = url2 + '+intext:"sql+syntax+near"+|+intext:"syntax+error+has+occurred"+|+intext:"incorrect+syntax+near"+|+intext:"unexpected+end+of+SQL+command"+|+intext:"Warning:+mysql_connect()"+|+intext:"Warning:+mysql_query()"+|+intext:"Warning:+pg_connect()"';
