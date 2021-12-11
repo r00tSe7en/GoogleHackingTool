@@ -8,3 +8,5 @@
 造个轮子，方便自己，方便大家。
 
 2019-1-21 更新了移动端显示错位的bug...
+
+![as](https://starchart.cc/r00tSe7en/GoogleHackingTool.svg)
