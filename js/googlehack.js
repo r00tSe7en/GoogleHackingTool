@@ -11,7 +11,7 @@
                 url = url2 + '+ext:xml+|+ext:conf+|+ext:cnf+|+ext:reg+|+ext:inf+|+ext:rdp+|+ext:cfg+|+ext:txt+|+ext:ora+|+ext:ini';
                 break;
             case 3:
-                url = url2 + '+ext:sql+|+ext:dbf+|+ext:mdb';
+                url = url2 + '+ext:sql+|+ext:dbf+|+ext:db+|+ext:mdb';
                 break;
             case 4:
                 url = url2 + '+ext:log';
@@ -20,7 +20,7 @@
                 url = url2 + '+ext:bkf+|+ext:bkp+|+ext:bak+|+ext:old+|+ext:backup';
                 break;
             case 6:
-                url = url2 + '+inurl:login+|+inurl:admin+|+intitle:登陆+|+intitle:后台+|+intitle:管理+|+intitle:认证';
+                url = url2 + '+inurl:login+|+inurl:admin+|+inurl:manage+|+inurl:system+|+inurl:backend+|+intitle:登陆+|+intitle:后台+|+intitle:管理+|+intitle:认证';
                 break;
             case 7:
                 url = url2 + '+intext:"sql+syntax+near"+|+intext:"syntax+error+has+occurred"+|+intext:"incorrect+syntax+near"+|+intext:"unexpected+end+of+SQL+command"+|+intext:"Warning:+mysql_connect()"+|+intext:"Warning:+mysql_query()"+|+intext:"Warning:+pg_connect()"';
